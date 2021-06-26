@@ -56,7 +56,7 @@
         android:layout_marginTop="16dp"
         android:fontFamily="@font/open_sans"
         android:lineSpacingExtra="4dp"
-        android:text="Shop Grocery items through Smyrna Green app\n for the best deals in veggies and fruit"
+        android:text="@string/shop_grocery_items_through_smyrna_green_app_n_for_the_best_deals_in_veggies_and_fruit"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -72,10 +72,12 @@
         android:drawableLeft="@drawable/ic_baseline_search_24"
         android:drawablePadding="12dp"
         android:ems="10"
-        android:hint="Search"
+        android:hint="@string/search"
         android:inputType="textPersonName"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        android:autofillHints=""
+        android:drawableStart="@drawable/ic_baseline_search_24" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
